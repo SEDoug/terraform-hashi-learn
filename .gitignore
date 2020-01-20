@@ -3,7 +3,13 @@
 
 # .tfstate files
 *.tfstate
+*.tfstate.backup
 *.tfstate.*
+
+# Module directory
+.terraform/
+
+.DS_Store
 
 # Crash log files
 crash.log
